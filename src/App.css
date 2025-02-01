@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-top: 50px;
+}
+
+.todo-container {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  width: 200px;
+}
+
+button {
+  padding: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:focus {
+  outline: none;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: grey;
+}
+
+.date {
+  font-size: 0.8em;
+  color: #888;
+  margin-left: 10px;
+}
+
+.edit-container {
+  margin: 20px;
+}
+
+.edit-container input {
+  padding: 10px;
+  width: 200px;
+}
+
+.edit-container button {
+  padding: 10px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+/* Button Styles */
+.add-button {
+  background-color: rgb(228, 228, 50);
+  color: black;
+}
+
+.add-button:hover {
+  background-color: gold;
+}
+
+.done-button {
+  background-color: green;
+  color: white;
+}
+
+.done-button:hover {
+  background-color: darkgreen;
+}
+
+.edit-button {
+  background-color: hsl(189, 87%, 43%);
+  color: white;
+}
+
+.edit-button:hover {
+  background-color: hsl(189, 87%, 43%);
+}
+
+.delete-button {
+  background-color: red;
+  color: white;
+}
+
+.delete-button:hover {
+  background-color: darkred;
+}
